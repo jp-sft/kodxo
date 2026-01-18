@@ -16,7 +16,15 @@ export default function ContactSection() {
     e.preventDefault();
     setStatus('loading');
 
-    // Simulate form submission - Replace with actual API call
+    // TODO: Integrate with actual backend service (EmailJS, Formspree, or n8n webhook)
+    // Example with Formspree:
+    // const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+    //   method: 'POST',
+    //   headers: { 'Content-Type': 'application/json' },
+    //   body: JSON.stringify(formData)
+    // });
+    
+    // Temporary simulation - replace with actual implementation
     setTimeout(() => {
       console.log('Form data:', formData);
       setStatus('success');

@@ -4,7 +4,8 @@ import { useState } from 'react';
 
 export default function WhatsAppButton() {
   const [isHovered, setIsHovered] = useState(false);
-  const phoneNumber = '237xxxxxxxxx'; // Replace with actual number
+  // TODO: Replace with actual WhatsApp number (format: 237XXXXXXXXX)
+  const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '237670000000';
 
   return (
     <a

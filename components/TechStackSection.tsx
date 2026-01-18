@@ -1,14 +1,13 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 
 const techStack = [
-  { name: 'Python', logo: '/images/python.svg' },
-  { name: 'Docker', logo: '/images/docker.svg' },
-  { name: 'React', logo: '/images/react.svg' },
-  { name: 'n8n', logo: '/images/n8n.svg' },
-  { name: 'Odoo', logo: '/images/odoo.svg' },
+  { name: 'Python', emoji: '🐍' },
+  { name: 'Docker', emoji: '🐳' },
+  { name: 'React', emoji: '⚛️' },
+  { name: 'n8n', emoji: '🔗' },
+  { name: 'Odoo', emoji: '📦' },
 ];
 
 export default function TechStackSection() {
@@ -44,15 +43,11 @@ export default function TechStackSection() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="grayscale hover:grayscale-0 opacity-50 hover:opacity-100 transition-all duration-300"
+              className="opacity-70 hover:opacity-100 transition-opacity duration-300"
             >
               <div className="w-16 h-16 md:w-20 md:h-20 relative flex items-center justify-center">
-                <span className="text-textSecondary text-4xl md:text-5xl font-bold">
-                  {tech.name === 'Python' && '🐍'}
-                  {tech.name === 'Docker' && '🐳'}
-                  {tech.name === 'React' && '⚛️'}
-                  {tech.name === 'n8n' && '🔗'}
-                  {tech.name === 'Odoo' && '📦'}
+                <span className="text-textSecondary text-4xl md:text-5xl">
+                  {tech.emoji}
                 </span>
               </div>
               <p className="text-center mt-2 text-sm text-textSecondary">{tech.name}</p>
