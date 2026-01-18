@@ -4,6 +4,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "KODXO - L'Ordre par l'Intelligence",
   description: "Transformez la complexité opérationnelle en avantage compétitif. Agence d'automatisation & IA basée à Yaoundé.",
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
