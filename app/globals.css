@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  /* KODXO Dark Tech Premium Color Palette */
+  --background: #0B1120;
+  --foreground: #FFFFFF;
+  --accent: #EA580C;
+  --text-secondary: #94A3B8;
+  --text-light: #F8FAFC;
+}
+
+@theme inline {
+  /* Colors */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-light: var(--text-light);
+  
+  /* KODXO Custom Colors */
+  --color-kodxo-dark: #0B1120;
+  --color-kodxo-orange: #EA580C;
+  --color-kodxo-gray: #94A3B8;
+  --color-kodxo-light: #F8FAFC;
+  
+  /* Font */
+  --font-sans: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
