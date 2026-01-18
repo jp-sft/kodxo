@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/10 py-8 px-6">
+    <footer className="border-t border-gray-200 py-8 px-6 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-kodxo-gray text-center md:text-left">
@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="flex gap-6">
             <a
               href="#"
-              className="text-kodxo-gray hover:text-white transition-colors"
+              className="text-kodxo-gray hover:text-kodxo-dark transition-colors"
               aria-label="LinkedIn"
             >
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -21,7 +21,7 @@ export default function Footer() {
             </a>
             <a
               href="#"
-              className="text-kodxo-gray hover:text-white transition-colors"
+              className="text-kodxo-gray hover:text-kodxo-dark transition-colors"
               aria-label="Twitter"
             >
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">

@@ -13,7 +13,7 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
           className="text-center"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-kodxo-dark mb-6">
             PRÊT À TRANSFORMER VOTRE ENTREPRISE ?
           </h2>
           <p className="text-kodxo-gray text-lg mb-12">
@@ -21,10 +21,10 @@ export default function Contact() {
           </p>
 
           {/* Contact Card */}
-          <div className="backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl p-8 md:p-12">
+          <div className="backdrop-blur-md bg-white border border-gray-200 rounded-2xl p-8 md:p-12">
             <div className="space-y-6">
               <div className="text-center">
-                <p className="text-white text-lg mb-6">
+                <p className="text-kodxo-dark text-lg mb-6">
                   Contactez-nous pour discuter de votre projet et découvrir comment KODXO peut automatiser vos opérations.
                 </p>
                 
@@ -43,7 +43,7 @@ export default function Contact() {
                   
                   <a
                     href="mailto:contact@kodxo.com"
-                    className="bg-transparent border-2 border-white/30 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:border-white hover:bg-white/10 transition-all inline-flex items-center justify-center gap-2"
+                    className="bg-transparent border-2 border-kodxo-dark/30 text-kodxo-dark px-8 py-4 rounded-lg font-semibold text-lg hover:border-kodxo-dark hover:bg-kodxo-dark/5 transition-all inline-flex items-center justify-center gap-2"
                   >
                     <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />

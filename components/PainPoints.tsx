@@ -36,9 +36,9 @@ export default function PainPoints() {
               className="relative group"
             >
               {/* Card with glassmorphism */}
-              <div className="relative backdrop-blur-sm bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-kodxo-orange/50 transition-all hover:shadow-xl hover:shadow-kodxo-orange/20">
+              <div className="relative backdrop-blur-sm bg-white border border-gray-200 rounded-2xl p-8 hover:border-kodxo-orange/50 transition-all hover:shadow-xl hover:shadow-kodxo-orange/10">
                 {/* Glow effect on hover */}
-                <div className="absolute inset-0 bg-gradient-to-br from-kodxo-orange/0 to-kodxo-orange/0 group-hover:from-kodxo-orange/10 group-hover:to-transparent rounded-2xl transition-all" />
+                <div className="absolute inset-0 bg-gradient-to-br from-kodxo-orange/0 to-kodxo-orange/0 group-hover:from-kodxo-orange/5 group-hover:to-transparent rounded-2xl transition-all" />
                 
                 <div className="relative z-10">
                   <div className="w-16 h-16 mb-4">
@@ -49,7 +49,7 @@ export default function PainPoints() {
                       height={64}
                     />
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-3">
+                  <h3 className="text-2xl font-bold text-kodxo-dark mb-3">
                     {point.title}
                   </h3>
                   <p className="text-kodxo-gray">

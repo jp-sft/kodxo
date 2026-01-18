@@ -46,7 +46,7 @@ export default function Services() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-kodxo-dark mb-4">
             LES 3 PILIERS
           </h2>
           <p className="text-kodxo-gray text-lg">
@@ -65,13 +65,13 @@ export default function Services() {
               className="relative group"
             >
               {/* Card */}
-              <div className="relative backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl p-8 h-full hover:border-kodxo-orange/50 transition-all hover:shadow-2xl hover:shadow-kodxo-orange/20">
+              <div className="relative backdrop-blur-md bg-white border border-gray-200 rounded-2xl p-8 h-full hover:border-kodxo-orange/50 transition-all hover:shadow-2xl hover:shadow-kodxo-orange/10">
                 {/* Glow effect */}
-                <div className="absolute inset-0 bg-gradient-to-br from-kodxo-orange/0 to-kodxo-orange/0 group-hover:from-kodxo-orange/10 group-hover:to-transparent rounded-2xl transition-all" />
+                <div className="absolute inset-0 bg-gradient-to-br from-kodxo-orange/0 to-kodxo-orange/0 group-hover:from-kodxo-orange/5 group-hover:to-transparent rounded-2xl transition-all" />
                 
                 <div className="relative z-10">
                   <div className="text-kodxo-orange mb-6">{service.icon}</div>
-                  <h3 className="text-2xl font-bold text-white mb-2">
+                  <h3 className="text-2xl font-bold text-kodxo-dark mb-2">
                     {service.title}
                   </h3>
                   <div className="text-kodxo-orange font-semibold mb-4">

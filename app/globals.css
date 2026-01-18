@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  /* KODXO Dark Tech Premium Color Palette */
-  --background: #0B1120;
-  --foreground: #FFFFFF;
+  /* KODXO Light Tech Premium Color Palette */
+  --background: #FFFFFF;
+  --foreground: #0B1120;
   --accent: #EA580C;
-  --text-secondary: #94A3B8;
-  --text-light: #F8FAFC;
+  --text-secondary: #64748B;
+  --text-light: #475569;
 }
 
 @theme inline {
@@ -20,7 +20,7 @@
   /* KODXO Custom Colors */
   --color-kodxo-dark: #0B1120;
   --color-kodxo-orange: #EA580C;
-  --color-kodxo-gray: #94A3B8;
+  --color-kodxo-gray: #64748B;
   --color-kodxo-light: #F8FAFC;
   
   /* Font */

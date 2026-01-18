@@ -16,9 +16,9 @@ export default function Header() {
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}
-      className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-kodxo-dark/80 border-b border-white/10"
+      className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-white/80 border-b border-gray-200"
       style={{
-        background: 'rgba(11, 17, 32, 0.8)',
+        background: 'rgba(255, 255, 255, 0.8)',
       }}
     >
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -33,20 +33,20 @@ export default function Header() {
               priority
             />
           </div>
-          <span className="text-xl font-bold text-white">KODXO</span>
+          <span className="text-xl font-bold text-kodxo-dark">KODXO</span>
         </div>
 
         {/* Navigation Menu */}
         <div className="hidden md:flex items-center space-x-8">
           <button
             onClick={() => scrollToSection('services')}
-            className="text-kodxo-gray hover:text-white transition-colors"
+            className="text-kodxo-gray hover:text-kodxo-dark transition-colors"
           >
             Solutions
           </button>
           <button
             onClick={() => scrollToSection('methode')}
-            className="text-kodxo-gray hover:text-white transition-colors"
+            className="text-kodxo-gray hover:text-kodxo-dark transition-colors"
           >
             Méthode
           </button>
