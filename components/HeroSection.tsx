@@ -9,8 +9,8 @@ export default function HeroSection() {
       {/* Background Grid */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0" style={{
-          backgroundImage: `linear-gradient(rgba(148, 163, 184, 0.1) 1px, transparent 1px),
-                           linear-gradient(90deg, rgba(148, 163, 184, 0.1) 1px, transparent 1px)`,
+          backgroundImage: `linear-gradient(rgba(100, 116, 139, 0.2) 1px, transparent 1px),
+                           linear-gradient(90deg, rgba(100, 116, 139, 0.2) 1px, transparent 1px)`,
           backgroundSize: '50px 50px'
         }} />
       </div>
@@ -52,7 +52,7 @@ export default function HeroSection() {
           </Link>
           <Link
             href="#services"
-            className="border-2 border-white/20 hover:border-white/40 text-white font-semibold px-8 py-4 rounded-lg transition-all backdrop-blur-sm w-full sm:w-auto"
+            className="border-2 border-textPrimary/20 hover:border-textPrimary/40 text-textPrimary font-semibold px-8 py-4 rounded-lg transition-all backdrop-blur-sm w-full sm:w-auto"
           >
             Découvrir nos solutions
           </Link>

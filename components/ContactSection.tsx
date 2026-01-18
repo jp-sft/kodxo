@@ -68,7 +68,7 @@ export default function ContactSection() {
         >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <div>
-              <label htmlFor="name" className="block text-sm font-semibold mb-2">
+              <label htmlFor="name" className="block text-sm font-semibold mb-2 text-textPrimary">
                 Nom complet *
               </label>
               <input
@@ -78,11 +78,11 @@ export default function ContactSection() {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 rounded-lg bg-background/50 border border-white/10 focus:border-accent focus:outline-none transition-colors"
+                className="w-full px-4 py-3 rounded-lg bg-white border border-textPrimary/20 focus:border-accent focus:outline-none transition-colors text-textPrimary"
               />
             </div>
             <div>
-              <label htmlFor="email" className="block text-sm font-semibold mb-2">
+              <label htmlFor="email" className="block text-sm font-semibold mb-2 text-textPrimary">
                 Email professionnel *
               </label>
               <input
@@ -92,13 +92,13 @@ export default function ContactSection() {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 rounded-lg bg-background/50 border border-white/10 focus:border-accent focus:outline-none transition-colors"
+                className="w-full px-4 py-3 rounded-lg bg-white border border-textPrimary/20 focus:border-accent focus:outline-none transition-colors text-textPrimary"
               />
             </div>
           </div>
 
           <div className="mb-6">
-            <label htmlFor="company" className="block text-sm font-semibold mb-2">
+            <label htmlFor="company" className="block text-sm font-semibold mb-2 text-textPrimary">
               Entreprise *
             </label>
             <input
@@ -108,12 +108,12 @@ export default function ContactSection() {
               value={formData.company}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 rounded-lg bg-background/50 border border-white/10 focus:border-accent focus:outline-none transition-colors"
+              className="w-full px-4 py-3 rounded-lg bg-white border border-textPrimary/20 focus:border-accent focus:outline-none transition-colors text-textPrimary"
             />
           </div>
 
           <div className="mb-6">
-            <label htmlFor="message" className="block text-sm font-semibold mb-2">
+            <label htmlFor="message" className="block text-sm font-semibold mb-2 text-textPrimary">
               Décrivez votre principal défi (optionnel)
             </label>
             <textarea
@@ -122,7 +122,7 @@ export default function ContactSection() {
               value={formData.message}
               onChange={handleChange}
               rows={4}
-              className="w-full px-4 py-3 rounded-lg bg-background/50 border border-white/10 focus:border-accent focus:outline-none transition-colors resize-none"
+              className="w-full px-4 py-3 rounded-lg bg-white border border-textPrimary/20 focus:border-accent focus:outline-none transition-colors resize-none text-textPrimary"
             />
           </div>
 

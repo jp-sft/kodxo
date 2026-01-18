@@ -27,7 +27,7 @@ export default function Header() {
             <div className="w-8 h-8 md:w-10 md:h-10 bg-accent rounded-md flex items-center justify-center">
               <span className="text-white font-black text-xl md:text-2xl">K</span>
             </div>
-            <span className="text-white font-bold text-xl md:text-2xl tracking-tight">
+            <span className="text-textPrimary font-bold text-xl md:text-2xl tracking-tight">
               KODXO
             </span>
           </Link>
@@ -36,13 +36,13 @@ export default function Header() {
           <nav className="hidden md:flex items-center space-x-8">
             <Link
               href="#services"
-              className="text-textSecondary hover:text-white transition-colors"
+              className="text-textSecondary hover:text-textPrimary transition-colors"
             >
               Solutions
             </Link>
             <Link
               href="#methode"
-              className="text-textSecondary hover:text-white transition-colors"
+              className="text-textSecondary hover:text-textPrimary transition-colors"
             >
               Méthode
             </Link>

@@ -2,14 +2,14 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="border-t border-white/10 py-12">
+    <footer className="border-t border-textPrimary/10 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-accent rounded-md flex items-center justify-center">
               <span className="text-white font-black text-xl">K</span>
             </div>
-            <span className="text-white font-bold text-xl">KODXO</span>
+            <span className="text-textPrimary font-bold text-xl">KODXO</span>
           </div>
 
           <div className="text-textSecondary text-sm text-center md:text-left">
