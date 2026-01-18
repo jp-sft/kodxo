@@ -7,6 +7,7 @@ const techStack = [
   { name: 'Python', logo: '/icons/python.svg' },
   { name: 'Docker', logo: '/icons/docker.svg' },
   { name: 'React', logo: '/icons/react.svg' },
+  { name: 'Angular', logo: '/icons/angular.svg' },
   { name: 'n8n', logo: '/icons/n8n.svg' },
   { name: 'Odoo', logo: '/icons/odoo.svg' },
 ];
