@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function Header() {
   const scrollToSection = (id: string) => {
@@ -24,17 +25,13 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <div className="w-10 h-10 flex items-center justify-center">
-            <svg viewBox="0 0 40 40" className="w-full h-full">
-              <text
-                x="20"
-                y="28"
-                textAnchor="middle"
-                className="font-bold text-2xl"
-                fill="#EA580C"
-              >
-                K
-              </text>
-            </svg>
+            <Image
+              src="/logo.svg"
+              alt="KODXO Logo"
+              width={40}
+              height={40}
+              priority
+            />
           </div>
           <span className="text-xl font-bold text-white">KODXO</span>
         </div>

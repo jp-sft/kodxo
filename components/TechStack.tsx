@@ -1,13 +1,14 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const techStack = [
-  { name: 'Python', logo: '🐍' },
-  { name: 'Docker', logo: '🐳' },
-  { name: 'React', logo: '⚛️' },
-  { name: 'n8n', logo: '🔗' },
-  { name: 'Odoo', logo: '💼' },
+  { name: 'Python', logo: '/icons/python.svg' },
+  { name: 'Docker', logo: '/icons/docker.svg' },
+  { name: 'React', logo: '/icons/react.svg' },
+  { name: 'n8n', logo: '/icons/n8n.svg' },
+  { name: 'Odoo', logo: '/icons/odoo.svg' },
 ];
 
 export default function TechStack() {
@@ -46,8 +47,13 @@ export default function TechStack() {
               whileHover={{ scale: 1.1 }}
               className="flex flex-col items-center gap-3 opacity-50 hover:opacity-100 transition-opacity"
             >
-              <div className="text-6xl filter grayscale hover:grayscale-0 transition-all">
-                {tech.logo}
+              <div className="w-16 h-16 filter grayscale hover:grayscale-0 transition-all">
+                <Image
+                  src={tech.logo}
+                  alt={tech.name}
+                  width={64}
+                  height={64}
+                />
               </div>
               <span className="text-kodxo-gray font-semibold">{tech.name}</span>
             </motion.div>
